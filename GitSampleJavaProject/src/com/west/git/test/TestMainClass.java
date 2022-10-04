@@ -18,6 +18,7 @@ public class TestMainClass
 		String whereAmI = TestMainClass.class.getName() + ".main()";
 		System.out.println(whereAmI + " method entry");
 		TestCalledClass c = new TestCalledClass();
+		System.out.println(whereAmI + " now call .callMe()");
 		c.callMe();
 		System.out.println(whereAmI + " done!");
 	}
