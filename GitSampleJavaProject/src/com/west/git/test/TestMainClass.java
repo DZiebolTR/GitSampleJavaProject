@@ -21,6 +21,7 @@ public class TestMainClass
 		System.out.println(whereAmI + " now call .callMe()");
 		c.callMe();
 		System.out.println(whereAmI + " done!");
+		System.out.println(whereAmI + " another new comment out.");
 	}
 
 
