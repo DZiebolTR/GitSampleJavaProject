@@ -24,6 +24,7 @@ public class TestMainClass
 		System.out.println(whereAmI + " done!");
 		System.out.println(whereAmI + " another new comment out.");
 		System.out.println(whereAmI + " I need another change");
+		System.out.println(whereAmI + " another change to merge master and head");
 	}
 
 
